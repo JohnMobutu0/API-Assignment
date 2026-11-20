@@ -1,0 +1,40 @@
+body {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    background-color: whitesmoke;
+
+}
+
+.category {
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 50%;
+    height: 400px;
+    background-color: beige;
+    padding: 25px;
+}
+
+.category h1 {
+    text-align: center;
+}
+
+.category a {
+    border: 1px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: gray;
+    color: black;
+    padding: 2px;
+}
+
+.category button {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: gray;
+    color: black;
+    padding: 7px;
+    font-weight: 500;
+}
+
