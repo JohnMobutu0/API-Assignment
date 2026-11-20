@@ -27,7 +27,7 @@ def add_product(request):
         form = ProductForm(request.POST, request.FILES) # request.FILES is required for images
         if form.is_valid():
             form.save()
-            return redirect('product_list') # Redirect to the display page after saving
+            return redirect('products:product_list') # Redirect to the display page after saving
     else:
         form = ProductForm()
     
